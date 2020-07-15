@@ -1,0 +1,70 @@
+# google-page
+Google search page clone project
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<title>Google</title>
+</head>
+<body>
+<div id="viewport">
+<div id="topbox">
+	<div id="rightlinks">
+	<p><a href="https://plus.google.com/?gpsrc=ogpy0&amp;tab=wX">+You</a></p>
+	<p><a href="https://mail.google.com/mail/?tab=wm">Gmail</a></p>
+	<p><a href="https://www.google.com/imghp?hl=en&amp;tab=wi&amp;ei=T7x6U4qtAqnRiwKK3YDACw&amp;ved=0CAQQqi4oAg">Images</a></p>
+	<div id="grid">
+		<div id="gridbox">
+			<p><img alt="square" src="images/grid.png" style="padding-top:0px" height="22" width="22" /></p>
+		</div>
+	</div>
+	<a class="buttonlink" id="drowbshadowclass" href="https://accounts.google.com/ServiceLogin?hl=en&amp;continue=https://www.google.com/">
+		<div id="signin">
+			<p id="button">Sign In</p>
+		</div>
+	</a>
+	</div>
+</div>
+<div id="space"></div>
+<div id="center">
+	<img alt="Google" height="95" id="logo" src="images/google-logo.png" style="padding-top:112px" width="269" />
+</div>
+	<div id="inputrow">
+		<div id="inputbox">
+			<div id="searchinput">
+				<input id="searchies" type="text" name="user" style="width:570px;/">
+			</div>
+		</div>
+	</div>
+
+<div id="buttons">
+	<input type="submit" class="subbuttons" value="Google Search">
+	<input type="submit" class="subbuttons" value="I'm Feeling Lucky">
+</div>
+
+<div id="footer">
+	<div id="leftstuff">
+		<a href="https://www.google.com/intl/en/ads/?fg=1">
+			<p>Advertising</p>
+		</a>
+		<a href="https://www.google.com/services/?fg=1">
+			<p>Business</p>
+		</a>
+		<a href="https://www.google.com/intl/en/about.html?fg=1">
+			<p>About</p>
+		</a>
+	</div>
+
+	<div id="rightstuff">
+		<a href="https://www.google.com/intl/en/policies/?fg=1">
+			<p>Privacy & Terms</p>
+		</a>
+		<a href="https://www.google.com/preferences?hl=en">
+			<p>Settings</p>
+		</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
