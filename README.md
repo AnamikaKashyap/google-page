@@ -33,7 +33,8 @@ Google search page clone project
 	<div id="inputrow">
 		<div id="inputbox">
 			<div id="searchinput">
-				<input id="searchies" type="text" name="user" style="width:570px;/">
+				
+				<input id="searchies" type="text" name="user" style="width:570px;/" <i class="fa fa-search" aria-hidden="true"></i>>
 			</div>
 		</div>
 	</div>
